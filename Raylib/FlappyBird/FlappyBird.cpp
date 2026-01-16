@@ -33,7 +33,7 @@ int main()
    InitWindow(screenWidth, screenHeight, "Raylib VSCode Test");
    InitAudioDevice();
 
-   Sound hitsound = LoadSound("Sounds/hit.wav");
+   Sound hitsound = LoadSound("./Sounds/hit.wav");
    Sound jumpsound = LoadSound("Sounds/jump.mp3");
    Sound fallsound = LoadSound("Sounds/fall.mp3");
    Sound pointsound = LoadSound("Sounds/point.mp3");
