@@ -181,6 +181,10 @@ int main()
 
       EndDrawing();
    }
+   UnloadSound(jumpsound);
+   UnloadSound(hitsound);
+   UnloadSound(fallsound);
+   UnloadSound(pointsound);
    CloseAudioDevice();
    CloseWindow();
 
